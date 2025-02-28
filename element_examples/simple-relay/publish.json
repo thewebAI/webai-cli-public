@@ -1,0 +1,25 @@
+{
+    "id": "ae601581-d71f-46f1-b31b-4883d56ec854",
+    "name": "simple_relay",
+    "displayName": "Simple Relay",
+    "version": "0.1.0",
+    "frameworkVersion": "0.4",
+    "inputs": [
+        {
+            "name": "default",
+            "contentType": "cv2-frame"
+        }
+    ],
+    "outputs": [
+        {
+            "name": "default",
+            "contentType": "cv2-frame"
+        }
+    ],
+    "settings": [],
+    "packages": [],
+    "isTraining": false,
+    "isInference": true,
+    "subElements": [],
+    "parentElementId": ""
+}

@@ -1,0 +1,61 @@
+{
+    "id": "74040ed5-9440-423c-8541-5155aef24338",
+    "name": "simple_send",
+    "displayName": "Simple Send",
+    "version": "0.1.0",
+    "frameworkVersion": "0.7",
+    "inputs": [],
+    "outputs": [
+        {
+            "name": "default",
+            "contentType": "cv2-frame"
+        }
+    ],
+    "settings": [
+        {
+            "name": "color",
+            "displayName": "Color",
+            "description": null,
+            "default": "black",
+            "type": "str",
+            "hints": null,
+            "validValues": [
+                "black",
+                "red",
+                "green",
+                "blue"
+            ],
+            "required": true,
+            "sensitive": false,
+            "dependsOn": null,
+            "characterLimit": null
+        },
+        {
+            "name": "delay",
+            "displayName": "Delay",
+            "description": null,
+            "default": 50,
+            "type": "int",
+            "hints": [
+                "advanced"
+            ],
+            "validValues": null,
+            "required": true,
+            "sensitive": false,
+            "dependsOn": {
+                "type": "equals",
+                "setting": "color",
+                "value": "red"
+            },
+            "minValue": null,
+            "maxValue": null,
+            "step": null
+        }
+    ],
+    "packages": [],
+    "isTraining": false,
+    "isInference": false,
+    "subElements": [],
+    "parentElementId": "",
+    "description": null
+}

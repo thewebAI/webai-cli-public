@@ -1,0 +1,25 @@
+{
+    "id": "9ebdfcbb-2dbb-4c67-aa6b-02820feb55d9",
+    "name": "simple_receive",
+    "displayName": "Simple Receive",
+    "version": "0.3.0",
+    "frameworkVersion": "0.6",
+    "inputs": [
+        {
+            "name": "default",
+            "contentType": "cv2-frame"
+        }
+    ],
+    "outputs": [
+        {
+            "name": "preview",
+            "contentType": "preview"
+        }
+    ],
+    "settings": [],
+    "packages": [],
+    "isTraining": false,
+    "isInference": false,
+    "subElements": [],
+    "parentElementId": ""
+}

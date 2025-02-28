@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Receive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+          display: grid;
+          width: 100vw;
+          height: 100vh;
+          background-image: url("{{ url_for('get_image') }}");
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+</body>
+</html>

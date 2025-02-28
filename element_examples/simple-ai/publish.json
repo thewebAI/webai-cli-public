@@ -1,0 +1,41 @@
+{
+    "id": "76d615a1-66bd-4577-b621-c7d7926ac699",
+    "name": "simple_ai",
+    "displayName": "Simple AI",
+    "version": "0.1.0",
+    "inputs": [],
+    "outputs": [],
+    "settings": [],
+    "packages": [],
+    "isTraining": false,
+    "isInference": false,
+    "subElements": [
+        {
+            "id": "72a0a0c5-86ed-46a9-88d3-aa75acd51286",
+            "name": "simple_ai.train",
+            "displayName": "train",
+            "version": "0.1.0",
+            "inputs": [],
+            "outputs": [],
+            "settings": [],
+            "packages": [],
+            "isTraining": true,
+            "isInference": false,
+            "parentElementId": "76d615a1-66bd-4577-b621-c7d7926ac699"
+        },
+        {
+            "id": "8d59c59f-86bc-4f38-b132-4b5e07fb265f",
+            "name": "simple_ai.inference",
+            "displayName": "predict",
+            "version": "0.1.0",
+            "inputs": [],
+            "outputs": [],
+            "settings": [],
+            "packages": [],
+            "isTraining": false,
+            "isInference": true,
+            "parentElementId": "76d615a1-66bd-4577-b621-c7d7926ac699"
+        }
+    ],
+    "parentElementId": ""
+}
