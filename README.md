@@ -39,20 +39,27 @@ To work with elements, `python` should be installed and included in your shell's
 
 Run `webai help` to get started.
 
-## Building elements
+## Developing Elements
 
 Elements are Python programs that can be imported into Navigator and included in
 your flows.
 
-The process of building a new element is the following:
+The process of developing a new element is the following:
 
 1. Run `webai element init` to generate a folder containing element boilerplate
-2. Iterate on the element logic
-3. Run `webai element import <path to element>` to import the element into
+2. Add additional requirements to the `requirements.txt` file
+3. Activate the virtual environment with `source .venv/bin/activate` (.venv is
+   automatically created by `webai element init`)
+4. Optionally point your IDE's python interpreter to the virtual environment
+5. Write Python code for your element logic
+6. Run `webai element generate <path to element>` to generate the publish.json
+   file
+7. Run `webai element import <path to element>` to import the element into
    Navigator
    - If this is not the first time importing it, make sure to bump its version
      first (in your `Element()` class instantiation)
-4. Repeat from step 2
+8. Repeat steps 5-7 and remember to bump the version of your element each time
+   you want to import a new version to test in Navigator
 
 ### Element SDK
 
