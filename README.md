@@ -61,7 +61,7 @@ The process of developing a new element is the following:
 8. Repeat steps 5-7 and remember to bump the version of your element each time
    you want to import a new version to test in Navigator
 
-### Element SDK
+### Element Framework
 
 Elements depend on the `webai_element_sdk` library to interact with the
 platform.
