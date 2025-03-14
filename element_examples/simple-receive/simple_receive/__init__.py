@@ -25,7 +25,6 @@ element = Element(
     name="simple_receive",
     display_name="Simple Receive",
     version="0.3.0",
-    framework_version="0.6",
     inputs=Inputs(),
     outputs=Outputs(),
 )

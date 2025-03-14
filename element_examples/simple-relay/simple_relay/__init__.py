@@ -20,7 +20,6 @@ element = Element(
     name="simple_relay",
     display_name="Simple Relay",
     version="0.1.0",
-    framework_version="0.9",
     inputs=Inputs(),
     outputs=Outputs(),
     is_inference=True,

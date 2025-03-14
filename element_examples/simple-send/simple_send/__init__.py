@@ -34,7 +34,6 @@ element = Element(
     name="simple_send",
     display_name="Simple Send",
     version="0.1.0",
-    framework_version="0.7",
     settings=Settings(),
     outputs=Outputs(),
 )
