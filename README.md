@@ -58,6 +58,13 @@ pip install -r requirements.txt
 webai element import /path/to/my-element
 ```
 
+## Creating Your First Element
+
+<video width="100%" controls>
+  <source src="assets/element-development.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Element Boilerplate
 
 The `webai_element_sdk` library exposes everything you need to create elements.
